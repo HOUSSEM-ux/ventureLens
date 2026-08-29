@@ -48,7 +48,6 @@ export function FormStep({ initialInputs, onAnalyze, onLoadExample }: FormStepPr
       'variableCostPerCustomer', 'fixedMonthlyCosts',
       'startingCapital', 'launchCosts', 'churnPct',
     ];
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const value: any = numericKeys.includes(key)
       ? (raw === '' ? 0 : parseFloat(raw) || 0)
       : raw;

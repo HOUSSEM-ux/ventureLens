@@ -13,7 +13,6 @@ interface MonthlyProjectionChartProps {
   currency: Currency;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function CustomTooltip({ active, payload, label, sym }: any) {
   if (!active || !payload?.length) return null;
   return (

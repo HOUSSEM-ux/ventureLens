@@ -15,7 +15,6 @@ interface ScenarioChartProps {
 
 const COLORS = ['#F59E0B', '#C9A84C', '#22C55E'];
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function CustomTooltip({ active, payload, label, sym }: any) {
   if (!active || !payload?.length) return null;
   return (
